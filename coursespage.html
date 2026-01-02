@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Courses Platform</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f6f9;
+        }
+
+        header {
+            background: #1e90ff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            padding: 30px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .course-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            transition: transform 0.3s;
+        }
+
+        .course-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .course-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .course-category {
+            font-size: 14px;
+            color: #1e90ff;
+            margin-bottom: 10px;
+        }
+
+        .course-desc {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .rating {
+            color: gold;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .enroll-btn {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #1e90ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .enroll-btn:hover {
+            background: #0b5ed7;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #222;
+            color: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>📚 LearnHub – Online Courses</h1>
+    <p>Explore all courses with ratings</p>
+</header>
+
+<div class="container">
+
+    <div class="course-card">
+        <div class="course-title">Web Development Bootcamp</div>
+        <div class="course-category">Development</div>
+        <div class="course-desc">Learn HTML, CSS, JavaScript & build real-world websites.</div>
+        <div class="rating">⭐⭐⭐⭐⭐ (4.8)</div>
+        <a href="#" class="enroll-btn">Enroll Now</a>
+    </div>
+
+    <div class="course-card">
+        <div class="course-title">Python for Beginners</div>
+        <div class="course-category">Programming</div>
+        <div class="course-desc">Start your programming journey with Python basics.</div>
+        <div class="rating">⭐⭐⭐⭐☆ (4.5)</div>
+        <a href="#" class="enroll-btn">Enroll Now</a>
+    </div>
+
+    <div class="course-card">
+        <div class="course-title">Data Science Essentials</div>
+        <div class="course-category">Data Science</div>
+        <div class="course-desc">Data analysis, visualization, and machine learning concepts.</div>
+        <div class="rating">⭐⭐⭐⭐⭐ (4.7)</div>
+        <a href="#" class="enroll-btn">Enroll Now</a>
+    </div>
+
+    <div class="course-card">
+        <div class="course-title">UI/UX Design Fundamentals</div>
+        <div class="course-category">Design</div>
+        <div class="course-desc">Design user-friendly and attractive applications.</div>
+        <div class="rating">⭐⭐⭐⭐☆ (4.4)</div>
+        <a href="#" class="enroll-btn">Enroll Now</a>
+    </div>
+
+    <div class="course-card">
+        <div class="course-title">Cloud Computing with AWS</div>
+        <div class="course-category">Cloud</div>
+        <div class="course-desc">Understand AWS services and cloud architecture.</div>
+        <div class="rating">⭐⭐⭐⭐⭐ (4.9)</div>
+        <a href="#" class="enroll-btn">Enroll Now</a>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 LearnHub | All Rights Reserved
+</footer>
+
+</body>
+</html>
