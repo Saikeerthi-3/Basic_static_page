@@ -27,5 +27,4 @@ jobs:
 
       - name: Upload HTML files to S3
         run: |
-          aws s3 cp web.html s3://${{ secrets.S3_BUCKET_NAME }}/web.html
-          --include "web.html"
+          aws s3 sync web.html s3://${{ secrets.S3_BUCKET_NAME }} --delete
